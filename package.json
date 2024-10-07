@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node ./0x00-ES6_basic/0-main.js"
+    "dev": "node $npm_config_file"
   },
   "repository": {
     "type": "git",
