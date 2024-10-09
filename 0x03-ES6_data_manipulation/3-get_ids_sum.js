@@ -1,4 +1,4 @@
-const getStudentsByLocation = (list, loc) => {
+const getStudentsByLocation = (list) => {
   if (!Array.isArray(list)) {
     return [];
   }
