@@ -1,12 +1,13 @@
 {
   "name": "alx-backend-javascript",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node $npm_config_file"
+    "dev": "node $npm_config_file",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,13 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
+    "@eslint/js": "^9.12.0",
     "babel-jest": "^29.7.0",
-    "eslint": "^9.11.1",
+    "eslint": "^9.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest": "^28.8.3",
+    "globals": "^15.10.0",
     "jest": "^29.7.0"
   }
 }
