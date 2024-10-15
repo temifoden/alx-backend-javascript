@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+This module contains wait_random function
+"""
 import asyncio
 import random
 
