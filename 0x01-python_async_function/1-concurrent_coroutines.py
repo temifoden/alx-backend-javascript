@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+This module contains asynchronous functions for handling concurrent tasks,
+specifically spawning tasks that simulate delays using asyncio.
+"""
 import asyncio
 from typing import List
 
