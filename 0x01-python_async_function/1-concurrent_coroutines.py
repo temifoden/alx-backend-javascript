@@ -14,8 +14,14 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
-    Spawn wait_random n times, and return the list of all delays
-    in ascending order
+    Spawn wait_random n times with a maximum delay of max_delay seconds for each task.
+    
+    Args:
+        n (int): The number of times to spawn the wait_random coroutine.
+        max_delay (int): The maximum number of seconds to wait for each task.
+    
+    Returns:
+        List[float]: A list of delay times (in seconds) returned by the wait_random coroutines.
     """
     delays = []
     # Create asyncio tasks for each wait_randon coroutine
